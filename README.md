@@ -1,8 +1,13 @@
-# 🔒 Monero Node VPN Solution for Starlink Connections 🛰️
+# 🔒 Monero Node VPN Solution for Starlink Connections 🛰️🌐
 
-## 🌐 Overview
 
-This project offers a solution to the port forwarding issues encountered when running a Monero node on Starlink connections. Three approaches are provided:
+<div align="center"><img src="picture/easynode_starlink_logo2.svg" width="600" height="600" alt="Monero EasyNode top"></div>
+
+##  ⚡Overview
+
+This project offers a solution to the port forwarding issues encountered when running a Monero node on Starlink connections. 
+
+Three approaches are provided:
 
 1. **🔐 OpenVPN**: Creates an encrypted tunnel to an external VPN server, routing Monero traffic through this server which has open ports.
 
@@ -10,11 +15,11 @@ This project offers a solution to the port forwarding issues encountered when ru
 
 3. **⚙️ Monero with VPN Configuration**: Adapts Monero node parameters to work optimally on an already configured VPN interface.
 
-Tor for secure RPC connections to your wallet, while using the VPN for blockchain P2P traffic.
+- Tor for secure RPC connections to your wallet, while using the VPN for blockchain P2P traffic.
 
-Your node's .onion addresses will remain accessible via Tor.
+- Your node's .onion addresses will remain accessible via Tor.
 
-Primary P2P traffic will go through the VPN if you configure Monero to use this interface.
+- Primary P2P traffic will go through the VPN if you configure Monero to use this interface.
 
 ## 🚀 Features
 
