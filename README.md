@@ -13,6 +13,7 @@ This project offers a solution to the port forwarding issues encountered when ru
 Tor for secure RPC connections to your wallet, while using the VPN for blockchain P2P traffic.
 
 Your node's .onion addresses will remain accessible via Tor.
+
 Primary P2P traffic will go through the VPN if you configure Monero to use this interface.
 
 ## 🚀 Features
