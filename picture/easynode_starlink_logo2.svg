@@ -78,7 +78,8 @@
   </g>
   
   <!-- Text elements -->
-  <text x="250" y="330" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">MONERO STARLINK</text>
-  <text x="250" y="355" font-family="'Courier New', monospace" font-size="16" font-weight="bold" fill="#FF6B00" text-anchor="middle">VPN (no portfowarding)</text>
-  <text x="250" y="390" font-family="'Courier New', monospace" font-size="26" font-weight="bold" fill="#FF6B00" text-anchor="middle">EASYNODE_STARLINK</text>
+  <text x="250" y="330" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white" text-anchor="middle">MONERO STARLINK</text>
+  <text x="250" y="355" font-family="'Courier New', monospace" font-size="18" font-weight="bold" fill="#FF6B00" text-anchor="middle">VPN integration</text>
+  <text x="250" y="365" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FF6B00" text-anchor="middle">(no portfowarding)</text>
+  <text x="250" y="390" font-family="'Courier New', monospace" font-size="28" font-weight="bold" fill="#FF6B00" text-anchor="middle">EASYNODE_STARLINK</text>
 </svg>
