@@ -10,6 +10,11 @@ This project offers a solution to the port forwarding issues encountered when ru
 
 3. **⚙️ Monero with VPN Configuration**: Adapts Monero node parameters to work optimally on an already configured VPN interface.
 
+Tor for secure RPC connections to your wallet, while using the VPN for blockchain P2P traffic.
+
+Your node's .onion addresses will remain accessible via Tor.
+Primary P2P traffic will go through the VPN if you configure Monero to use this interface.
+
 ## 🚀 Features
 
 - 🔄 Automatic VPN interface detection
