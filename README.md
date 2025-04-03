@@ -1,4 +1,5 @@
-# 🔒 Monero Node VPN Solution for Starlink Connections 🛰️🌐
+# 🔒 easy Monero Node with VPN integration 
+# Starlink Connections without port forwarding 🛰️🌐
 
 
 <div align="center"><img src="picture/easynode_starlink_logo2.svg" width="600" height="600" alt="Monero EasyNode top"></div>
