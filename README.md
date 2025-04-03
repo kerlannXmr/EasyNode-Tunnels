@@ -1,4 +1,4 @@
-# 🔒 easy Monero Node with VPN integration 
+# 🔒 Easy Monero Node with VPN integration 
 # Starlink Connections without port forwarding 🛰️🌐
 
 
