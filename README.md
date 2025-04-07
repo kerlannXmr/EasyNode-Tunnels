@@ -22,6 +22,8 @@ Three approaches are provided:
 
 - Primary P2P traffic will go through the VPN if you configure Monero to use this interface.
 
+  <div align="center"><img src="picture/vpn_script_easynode_en.svg" width="600" height="600" alt="Monero EasyNode top"></div>
+
 ## 🚀 Features
 
 - 🔄 Automatic VPN interface detection
