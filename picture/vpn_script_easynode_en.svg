@@ -144,10 +144,9 @@
     <text x="455" y="540" font-family="Arial" font-size="12" text-anchor="middle">• Real IP exposed if</text>
     <text x="455" y="560" font-family="Arial" font-size="12" text-anchor="middle">  both fail</text>
     
-    <text x="625" y="500" font-family="Arial" font-size="12" text-anchor="middle">• Complex configuration</text>
-    <text x="625" y="520" font-family="Arial" font-size="12" text-anchor="middle">• Reduced performance</text>
-    <text x="625" y="540" font-family="Arial" font-size="12" text-anchor="middle">• Inaccessible if VPN</text>
-    <text x="625" y="560" font-family="Arial" font-size="12" text-anchor="middle">  is unavailable</text>
+    
+    <text x="625" y="500" font-family="Arial" font-size="12" text-anchor="middle">• Inaccessible if VPN</text>
+    <text x="625" y="520" font-family="Arial" font-size="12" text-anchor="middle">  is unavailable</text>
   </g>
   
   <!-- Summary completely at the bottom, outside the table -->
