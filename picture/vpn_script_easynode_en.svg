@@ -152,6 +152,6 @@
   <!-- Summary completely at the bottom, outside the table -->
   <rect x="100" y="650" width="600" height="40" rx="5" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
   <text x="400" y="675" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">
-    Conclusion: Script VPN + Tor = Maximum protection with zero possible IP leaks
+    Conclusion: Script VPN EasyNode + Tor = Maximum protection with zero possible IP leaks
   </text>
 </svg>
