@@ -8,6 +8,10 @@
 
 This project offers a solution to the port forwarding issues encountered when running a Monero node on Starlink connections. 
 
+## 🎯 Purpose
+
+These solutions enable running a full Monero node behind Starlink without requiring port forwarding or third-party routers, using VPN technologies to establish reliable and secure incoming connections.
+
 Four approaches are provided:
 
 1. **🔐 OpenVPN**: Creates an encrypted tunnel to an external VPN server, routing Monero traffic through this server which has open ports.
@@ -50,9 +54,26 @@ Four approaches are provided:
 
 Simply run " Easynode_starlink.sh " script and choose menu option for vpn.
 
-## 🎯 Purpose
+## HOW TO
 
-These solutions enable running a full Monero node behind Starlink without requiring port forwarding or third-party routers, using VPN technologies to establish reliable and secure incoming connections.
+No knowledge required. Select step by step:
+
+The node is protected by Tor and an onion address allows you to connect to a mobile wallet.
+An SSH onion address is available to access the node remotely.
+Added the 'MRL' IP bann list of 'boog900'.
+
+### Internal disk :
+- Follow the step 1➡️2➡️3➡️4➡️5
+- Select VPN ➡️13 
+- Then do : Step 6️⃣ Start.
+
+### External Disk :
+- Follow the step 1➡️2➡️3➡️4➡️5
+- Then do : Step ➡️8
+- Select VPN ➡️13 
+- and start ➡️6
+
+Enjoy.
 
 ## 🔗 Compatibility
 
