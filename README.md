@@ -33,6 +33,17 @@ Three approaches are provided:
 - 🔒 Secured RPC connections
 - 🔄 Stability during IP address changes
 
+## DOWNLOAD
+
+<div align="center">
+
+| Version | Links |
+|---------|------|
+| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_starlink-orange?style=for-the-badge)](https://github.com/kerlannXmr/easymonerod_vpn_starlink/releases/download/Easynode_stalink/easynode_starlink.sh) |
+
+</div>
+
+
 ## 🛠️ Installation
 
 Simply run " Easynode_starlink.sh " script and choose menu option for vpn.
