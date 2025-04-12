@@ -1,8 +1,8 @@
 # 🔒 Easy Monero Node with VPN integration 
-# Starlink Connections without port forwarding 🛰️🌐
+# Starlink Connections without port forwarding 🛰️
 
 
-<div align="center"><img src="picture/easynode_starlink_logo2.png" width="600" height="600" alt="Monero EasyNode top"></div>
+<div align="center"><img src="picture/easynode_starlink_logo2.png" width="600" height="450" alt="Monero EasyNode top"></div>
 
 ##  ⚡Overview
 
@@ -35,7 +35,7 @@ Four approaches are provided:
 - 🔒 Secured RPC connections
 - 🔄 Stability during IP address changes
 
-## DOWNLOAD
+## 🌐 DOWNLOAD
 
 <div align="center">
 
