@@ -1,6 +1,22 @@
 # 🚇 EasyNode-Vpn+Tor
 
  **Tor & VPN Ready Monero Node Installer**
+
+ [![contact_Mail](https://img.shields.io/badge/✉️_Email-FF6600?style=flat&logoColor=white)](mailto:easynode@kerlann.org)
+[![GitHub-page](https://img.shields.io/badge/Page--FR-FF6600?style=flat&logo=github&logoColor=white)](https://easynode.kerlann.org/fr.html)
+[![Monero-ecosystem](https://img.shields.io/badge/🧭_Monero.eco-FF6600?style=flat&logoColor=white)](https://monero.eco)
+
+
+<div align="center"><img src="https://github.com/kerlannXmr/easymonerod/blob/main/picture/banniere5.svg" width="900" height="100" alt="Monero EasyNode top"></div>
+
+<div align="center">
+
+## Make easy a MONERO Node 
+
+<img src="picture/xxmr.gif" width="300" height="300" alt="Monero EasyNode Logo">
+</div>
+<br>
+<br>
  
 <div>
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
