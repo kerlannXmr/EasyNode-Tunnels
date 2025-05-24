@@ -3,7 +3,7 @@
  **Tor & VPN Ready Monero Node Installer**
 
 <div>
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400">
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"><img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_diagram.svg" alt="EasyNode-Tunnels Logo" width="400" height="400">
 </div>
 
 ---
