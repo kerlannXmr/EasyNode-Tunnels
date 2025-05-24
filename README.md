@@ -4,7 +4,7 @@
 
 <div>
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
-
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_features.png" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
 </div>
 
 ---
@@ -90,6 +90,16 @@ sudo ./easynode_vpn_tor.sh
 
 # 4. Follow the guided menu
 ```
+## DOWNLOAD
+<div>
+
+| Version | Links |
+|---------|------|
+| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V2.0/easynode_vpn_tor.sh) |
+
+</div>
+
+
 ## 🔗 Final Connection Options Available
 
 After complete installation, you get **3 connection methods**:
