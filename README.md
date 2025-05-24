@@ -10,7 +10,8 @@
 ---
 ## 🎯 What is EasyNode-Tunnels?
 
-**EasyNode-Tunnels** is a revolutionary one-click installer that transforms any Linux machine into a bulletproof Monero privacy fortress. In just 45 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts weeks to configure.
+**EasyNode-Tunnels** is a revolutionary one-click installer that transforms any Linux machine into a bulletproof Monero privacy fortress. In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts weeks to configure.
+
 **No Linux knowledge required.**
 
 ### 🎯 Why Choose EasyNode-Tunnels?
