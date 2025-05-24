@@ -1,0 +1,172 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définitions des gradients -->
+  <defs>
+    <!-- Gradient principal Monero -->
+    <linearGradient id="moneroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8533;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient Tor -->
+    <linearGradient id="torGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7D4CDB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9966FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient VPN -->
+    <linearGradient id="vpnGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CC66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33DD77;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Ombre -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.3)"/>
+    </filter>
+  </defs>
+  
+  <!-- Cercle de fond -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a1a" stroke="#333" stroke-width="2" filter="url(#shadow)"/>
+  
+  <!-- Tunnel Tor (courbe supérieure) -->
+  <path d="M 30 70 Q 100 30 170 70" 
+        stroke="url(#torGradient)" 
+        stroke-width="8" 
+        fill="none" 
+        stroke-linecap="round"
+        opacity="0.8">
+    <animate attributeName="stroke-dasharray" values="0,100;20,80;0,100" dur="3s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Tunnel VPN (courbe inférieure) -->
+  <path d="M 30 130 Q 100 170 170 130" 
+        stroke="url(#vpnGradient)" 
+        stroke-width="8" 
+        fill="none" 
+        stroke-linecap="round"
+        opacity="0.8">
+    <animate attributeName="stroke-dasharray" values="0,100;15,85;0,100" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Nœud central Monero -->
+  <circle cx="100" cy="100" r="25" fill="url(#moneroGradient)" stroke="#fff" stroke-width="2">
+    <animate attributeName="r" values="25;28;25" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Symbole Monero stylisé dans le nœud -->
+  <g transform="translate(100,100)">
+    <!-- M stylisé -->
+    <path d="M -8 -8 L -8 8 M -8 -8 L 0 2 L 8 -8 M 8 -8 L 8 8" 
+          stroke="#fff" 
+          stroke-width="2.5" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Points de connexion aux extrémités -->
+  <!-- Point Tor gauche -->
+  <circle cx="30" cy="70" r="6" fill="url(#torGradient)" stroke="#fff" stroke-width="1">
+    <animate attributeName="fill-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Point Tor droit -->
+  <circle cx="170" cy="70" r="6" fill="url(#torGradient)" stroke="#fff" stroke-width="1">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Point VPN gauche -->
+  <circle cx="30" cy="130" r="6" fill="url(#vpnGradient)" stroke="#fff" stroke-width="1">
+    <animate attributeName="fill-opacity" values="0.7;1;0.7" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Point VPN droit -->
+  <circle cx="170" cy="130" r="6" fill="url(#vpnGradient)" stroke="#fff" stroke-width="1">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Texte EasyNode -->
+  <text x="100" y="35" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        font-weight="bold" 
+        fill="#FF6600">EASYNODE</text>
+  
+  <!-- Texte Tunnels -->
+  <text x="100" y="180" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="12" 
+        font-weight="normal" 
+        fill="#888">TUNNELS</text>
+  
+  <!-- Labels des tunnels -->
+  <!-- Texte TOR -->
+  <text x="100" y="55" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="bold" 
+        fill="url(#torGradient)">TOR</text>
+  
+  <!-- Texte VPN -->
+  <text x="100" y="155" 
+        text-anchor="middle" 
+        font-family="Arial, sans-serif" 
+        font-size="10" 
+        font-weight="bold" 
+        fill="url(#vpnGradient)">VPN</text>
+  
+  <!-- Icônes et labels de sécurité -->
+  <!-- Icône shield (firewall) avec texte -->
+  <g transform="translate(50,45)">
+    <path d="M 0 -8 L 6 -6 L 6 0 L 3 3 L -3 3 L -6 0 L -6 -6 Z" 
+          fill="#4CAF50" 
+          opacity="0.8"/>
+    <text x="0" y="12" 
+          text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="7" 
+          font-weight="bold" 
+          fill="#4CAF50">FIREWALL</text>
+  </g>
+  
+  <!-- Icône block (IP bans) avec texte -->
+  <g transform="translate(150,45)">
+    <circle r="5" fill="#FF4444" opacity="0.8"/>
+    <line x1="-4" y1="-4" x2="4" y2="4" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="12" 
+          text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="7" 
+          font-weight="bold" 
+          fill="#FF4444">IP BANS</text>
+  </g>
+  
+  <!-- Icônes de sécurité supplémentaires -->
+  <!-- Icône DNS anonyme -->
+  <g transform="translate(50,155)">
+    <circle r="4" fill="none" stroke="#00BCD4" stroke-width="1.5" opacity="0.6"/>
+    <circle r="2" fill="#00BCD4" opacity="0.6"/>
+    <text x="0" y="12" 
+          text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="7" 
+          font-weight="bold" 
+          fill="#00BCD4">DNS</text>
+  </g>
+  
+  <!-- Icône monitoring -->
+  <g transform="translate(150,155)">
+    <rect x="-4" y="-3" width="8" height="6" fill="none" stroke="#FFC107" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-2" y1="1" x2="2" y2="-2" stroke="#FFC107" stroke-width="1.5" opacity="0.6"/>
+    <text x="0" y="12" 
+          text-anchor="middle" 
+          font-family="Arial, sans-serif" 
+          font-size="7" 
+          font-weight="bold" 
+          fill="#FFC107">MONITOR</text>
+  </g>
+  
+</svg>
