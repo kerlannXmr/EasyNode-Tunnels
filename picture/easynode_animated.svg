@@ -1,0 +1,245 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définitions -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="moneroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8533;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="torGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7D4CDB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9966FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="vpnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CC66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33DD77;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gradient animé pour les flux de données -->
+    <linearGradient id="flowGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent" />
+      <stop offset="50%" style="stop-color:#00FFFF;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:transparent" />
+      <animateTransform attributeName="gradientTransform" 
+                        type="translate" 
+                        values="0 0; 200 0; 0 0" 
+                        dur="2s" 
+                        repeatCount="indefinite"/>
+    </linearGradient>
+    
+    <!-- Effets -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.5)"/>
+    </filter>
+  </defs>
+  
+  <!-- Fond avec grille animée -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <g opacity="0.1">
+    <defs>
+      <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#333" stroke-width="1"/>
+      </pattern>
+    </defs>
+    <rect width="200" height="200" fill="url(#grid)">
+      <animate attributeName="opacity" values="0.1;0.3;0.1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Cercles de protection (orbites) -->
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#333" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="80;85;80" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="100" r="65" fill="none" stroke="#444" stroke-width="1" opacity="0.2">
+    <animate attributeName="r" values="65;70;65" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Flux de données TOR (haut) -->
+  <g>
+    <path d="M 20 50 Q 100 20 180 50" stroke="url(#torGrad)" stroke-width="6" fill="none" opacity="0.8"/>
+    <!-- Particules de données -->
+    <circle r="3" fill="url(#torGrad)">
+      <animateMotion dur="2s" repeatCount="indefinite">
+        <mpath href="#torPath"/>
+      </animateMotion>
+    </circle>
+    <circle r="2" fill="url(#torGrad)" opacity="0.7">
+      <animateMotion dur="2s" repeatCount="indefinite" begin="0.5s">
+        <mpath href="#torPath"/>
+      </animateMotion>
+    </circle>
+    <path id="torPath" d="M 20 50 Q 100 20 180 50" stroke="none" fill="none"/>
+  </g>
+  
+  <!-- Flux de données VPN (bas) -->
+  <g>
+    <path d="M 20 150 Q 100 180 180 150" stroke="url(#vpnGrad)" stroke-width="6" fill="none" opacity="0.8"/>
+    <!-- Particules de données -->
+    <circle r="3" fill="url(#vpnGrad)">
+      <animateMotion dur="2.5s" repeatCount="indefinite">
+        <mpath href="#vpnPath"/>
+      </animateMotion>
+    </circle>
+    <circle r="2" fill="url(#vpnGrad)" opacity="0.7">
+      <animateMotion dur="2.5s" repeatCount="indefinite" begin="0.7s">
+        <mpath href="#vpnPath"/>
+      </animateMotion>
+    </circle>
+    <path id="vpnPath" d="M 20 150 Q 100 180 180 150" stroke="none" fill="none"/>
+  </g>
+  
+  <!-- Nœud central MONERO avec pulsation -->
+  <g transform="translate(100,100)">
+    <circle r="30" fill="url(#moneroGrad)" stroke="#fff" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="r" values="30;35;30" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Symbole M rotatif -->
+    <g>
+      <path d="M -10 -10 L -10 10 M -10 -10 L 0 2 L 10 -10 M 10 -10 L 10 10" 
+            stroke="#fff" 
+            stroke-width="3" 
+            fill="none" 
+            stroke-linecap="round">
+        <animateTransform attributeName="transform" 
+                          type="rotate" 
+                          values="0;360" 
+                          dur="8s" 
+                          repeatCount="indefinite"/>
+      </path>
+    </g>
+    
+    <!-- Texte MONERO -->
+    <text y="45" text-anchor="middle" font-family="Arial" font-size="8" font-weight="bold" fill="#FF6600">
+      MONERO
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Éléments de sécurité en orbite -->
+  
+  <!-- FIREWALL (position 12h) -->
+  <g transform="translate(100,30)">
+    <g>
+      <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 0 0;360 0 0" 
+                        dur="6s" 
+                        repeatCount="indefinite"/>
+      <circle r="8" fill="#4CAF50" opacity="0.8" filter="url(#glow)">
+        <animate attributeName="r" values="8;12;8" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text y="20" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="#4CAF50">
+        FIREWALL
+      </text>
+    </g>
+  </g>
+  
+  <!-- IP BANS (position 3h) -->
+  <g transform="translate(170,100)">
+    <g>
+      <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 0 0;-360 0 0" 
+                        dur="5s" 
+                        repeatCount="indefinite"/>
+      <circle r="8" fill="#FF4444" opacity="0.8" filter="url(#glow)">
+        <animate attributeName="r" values="8;11;8" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <line x1="-6" y1="-6" x2="6" y2="6" stroke="#fff" stroke-width="2">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="1s" repeatCount="indefinite"/>
+      </line>
+      <text y="20" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="#FF4444">
+        IP BANS
+      </text>
+    </g>
+  </g>
+  
+  <!-- DNS (position 9h) -->
+  <g transform="translate(30,100)">
+    <g>
+      <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 0 0;360 0 0" 
+                        dur="7s" 
+                        repeatCount="indefinite"/>
+      <circle r="6" fill="none" stroke="#00BCD4" stroke-width="2" opacity="0.8" filter="url(#glow)">
+        <animate attributeName="r" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#00BCD4" opacity="0.8"/>
+      <text y="18" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="#00BCD4">
+        DNS
+      </text>
+    </g>
+  </g>
+  
+  <!-- MONITOR (position 6h) -->
+  <g transform="translate(100,170)">
+    <g>
+      <animateTransform attributeName="transform" 
+                        type="rotate" 
+                        values="0 0 0;-360 0 0" 
+                        dur="4s" 
+                        repeatCount="indefinite"/>
+      <rect x="-6" y="-4" width="12" height="8" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.8" filter="url(#glow)">
+        <animate attributeName="stroke-width" values="2;4;2" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+      <line x1="-3" y1="2" x2="3" y2="-3" stroke="#FFC107" stroke-width="2">
+        <animate attributeName="opacity" values="0.6;1;0.6" dur="1.2s" repeatCount="indefinite"/>
+      </line>
+      <text y="18" text-anchor="middle" font-family="Arial" font-size="6" font-weight="bold" fill="#FFC107">
+        MONITOR
+      </text>
+    </g>
+  </g>
+  
+  <!-- Labels principaux avec effet de frappe -->
+  <text x="100" y="20" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#FF6600">
+    EASYNODE
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <g transform="translate(100,190)">
+    <text text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#888">
+      TUNNELS
+      <animate attributeName="fill" values="#888;#FFF;#888" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  
+  <!-- Labels TOR et VPN -->
+  <text x="100" y="65" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="url(#torGrad)">
+    TOR
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <text x="100" y="140" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold" fill="url(#vpnGrad)">
+    VPN
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="2.5s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Effets de particules aléatoires -->
+  <g opacity="0.3">
+    <circle r="1" fill="#00FFFF">
+      <animate attributeName="cx" values="50;150;50" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;120;80" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="1" fill="#FF6600">
+      <animate attributeName="cx" values="150;50;150" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="70;130;70" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+</svg>
