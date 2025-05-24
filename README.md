@@ -1,11 +1,14 @@
 # 🚇 EasyNode-Vpn+Tor
 
  **Tor & VPN Ready Monero Node Installer**
-
+ 
 <div>
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_features.png" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_features.png" alt="EasyNode-Tunnels Logo" width="450" height="400"> 
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.png" alt="EasyNode-Tunnels Logo" width="400" height="450"> 
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="450" height="450">
 </div>
+
 
 ---
 ## 🎯 What is EasyNode-Tunnels?
