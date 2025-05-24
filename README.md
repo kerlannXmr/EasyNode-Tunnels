@@ -4,11 +4,11 @@
  
 <div>
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_features.png" alt="EasyNode-Tunnels Logo" width="430" height="400"> 
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_features.png" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
  <br>
   <br>
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.png" alt="EasyNode-Tunnels Logo" width="400" height="450"> 
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="430" height="450">
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="400" height="450">
 </div>
 
 
