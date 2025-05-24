@@ -1,0 +1,297 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définitions -->
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="moneroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6600;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF8533;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="torGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7D4CDB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9966FF;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="vpnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00CC66;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#33DD77;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2a2a2a;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Effets -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.5)"/>
+    </filter>
+  </defs>
+  
+  <!-- Fond -->
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Grille de fond -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#333" stroke-width="1" opacity="0.3"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <!-- Titre principal -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#FF6600">
+    EASYNODE-TUNNELS FEATURES
+  </text>
+  <text x="400" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#888">
+    Complete Monero Privacy Stack
+  </text>
+  
+  <!-- Nœud central -->
+  <g transform="translate(400,300)">
+    <!-- Cercle principal -->
+    <circle r="60" fill="url(#moneroGrad)" stroke="#fff" stroke-width="3" filter="url(#glow)"/>
+    
+    <!-- Symbole Monero -->
+    <path d="M -20 -20 L -20 20 M -20 -20 L 0 5 L 20 -20 M 20 -20 L 20 20" 
+          stroke="#fff" 
+          stroke-width="4" 
+          fill="none" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Label -->
+    <text y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6600">
+      MONERO NODE
+    </text>
+  </g>
+  
+  <!-- Feature 1: TOR Hidden Services (haut gauche) -->
+  <g transform="translate(150,150)">
+    <!-- Connexion au centre -->
+    <path d="M 0 0 Q 125 75 250 150" stroke="url(#torGrad)" stroke-width="3" fill="none" opacity="0.6"/>
+    
+    <!-- Icône TOR -->
+    <circle r="25" fill="url(#torGrad)" stroke="#fff" stroke-width="2" filter="url(#shadow)"/>
+    <text y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff">TOR</text>
+    
+    <!-- Description -->
+    <rect x="-80" y="40" width="160" height="85" rx="5" fill="#333" stroke="url(#torGrad)" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#torGrad)">
+      HIDDEN SERVICES
+    </text>
+    <text x="0" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Anonymous .onion
+    </text>
+    <text x="0" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Hidden SSH access
+    </text>
+    <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Complete anonymity
+    </text>
+  </g>
+  
+  <!-- Feature 2: VPN Tunnels (haut droite) -->
+  <g transform="translate(650,150)">
+    <!-- Connexion au centre -->
+    <path d="M 0 0 Q -125 75 -250 150" stroke="url(#vpnGrad)" stroke-width="3" fill="none" opacity="0.6"/>
+    
+    <!-- Icône VPN -->
+    <circle r="25" fill="url(#vpnGrad)" stroke="#fff" stroke-width="2" filter="url(#shadow)"/>
+    <text y="8" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#fff">VPN</text>
+    
+    <!-- Description -->
+    <rect x="-80" y="40" width="160" height="85" rx="5" fill="#333" stroke="url(#vpnGrad)" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="url(#vpnGrad)">
+      SECURE TUNNELS
+    </text>
+    <text x="0" y="83" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • ZeroTier integration
+    </text>
+    <text x="0" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Mobile wallet access
+    </text>
+    <text x="0" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • No port forwarding
+    </text>
+  </g>
+  
+  <!-- Feature 3: Firewall Protection (gauche) -->
+  <g transform="translate(100,300)">
+    <!-- Connexion au centre -->
+    <line x1="0" y1="0" x2="240" y2="0" stroke="#4CAF50" stroke-width="3" opacity="0.6"/>
+    
+    <!-- Icône Firewall -->
+    <polygon points="0,-20 15,-15 15,5 8,15 -8,15 -15,5 -15,-15" 
+             fill="#4CAF50" 
+             stroke="#fff" 
+             stroke-width="2" 
+             filter="url(#shadow)"/>
+    <text y="5" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#fff">FW</text>
+    
+    <!-- Description -->
+    <rect x="-80" y="30" width="160" height="85" rx="5" fill="#333" stroke="#4CAF50" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#4CAF50">
+      FIREWALL
+    </text>
+    <text x="0" y="73" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • UFW configuration
+    </text>
+    <text x="0" y="89" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Optimized ports
+    </text>
+    <text x="0" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Auto protection
+    </text>
+  </g>
+  
+  <!-- Feature 4: IP Banning (droite) -->
+  <g transform="translate(700,300)">
+    <!-- Connexion au centre -->
+    <line x1="0" y1="0" x2="-240" y2="0" stroke="#FF4444" stroke-width="3" opacity="0.6"/>
+    
+    <!-- Icône IP Ban -->
+    <circle r="20" fill="#FF4444" stroke="#fff" stroke-width="2" filter="url(#shadow)"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#fff" stroke-width="3"/>
+    <text y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FF4444">IP</text>
+    
+    <!-- Description -->
+    <rect x="-80" y="50" width="160" height="95" rx="5" fill="#333" stroke="#FF4444" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#FF4444">
+      IP BANNING
+    </text>
+    <text x="0" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Community blacklist
+    </text>
+    <text x="0" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Auto-download
+    </text>
+    <text x="0" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Real-time blocking
+    </text>
+  </g>
+  
+  <!-- Feature 5: Anonymous DNS (bas gauche) -->
+  <g transform="translate(150,450)">
+    <!-- Connexion au centre -->
+    <path d="M 0 0 Q 125 -75 250 -150" stroke="#00BCD4" stroke-width="3" fill="none" opacity="0.6"/>
+    
+    <!-- Icône DNS -->
+    <circle r="20" fill="none" stroke="#00BCD4" stroke-width="3"/>
+    <circle r="8" fill="#00BCD4"/>
+    <text y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#00BCD4">DNS</text>
+    
+    <!-- Description -->
+    <rect x="-80" y="50" width="160" height="95" rx="5" fill="#333" stroke="#00BCD4" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#00BCD4">
+      ANONYMOUS DNS
+    </text>
+    <text x="0" y="96" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • No tracking
+    </text>
+    <text x="0" y="112" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Secure queries
+    </text>
+    <text x="0" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#fff">
+      • Privacy focused
+    </text>
+  </g>
+  
+  <!-- Feature 6: Monitoring (bas droite) -->
+  <g transform="translate(650,450)">
+    <!-- Connexion au centre -->
+    <path d="M 0 0 Q -125 -75 -250 -150" stroke="#FFC107" stroke-width="3" fill="none" opacity="0.6"/>
+    
+    <!-- Icône Monitor -->
+    <rect x="-15" y="-10" width="30" height="20" rx="2" fill="none" stroke="#FFC107" stroke-width="3"/>
+    <line x1="-8" y1="5" x2="8" y2="-8" stroke="#FFC107" stroke-width="2"/>
+    <text y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#FFC107">MON</text>
+    
+    <!-- Description -->
+    <rect x="-70" y="50" width="140" height="80" rx="5" fill="#333" stroke="#FFC107" stroke-width="1" opacity="0.9"/>
+    <text x="0" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#FFC107">
+      MONITORING
+    </text>
+    <text x="0" y="88" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+      • Real-time stats
+    </text>
+    <text x="0" y="102" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+      • Peer connections
+    </text>
+    <text x="0" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">
+      • Performance data
+    </text>
+  </g>
+  
+  <!-- Feature 7: External Storage (bas centre gauche) -->
+  <g transform="translate(250,520)">
+    <!-- Icône SSD -->
+    <rect x="-20" y="-8" width="40" height="16" rx="2" fill="#666" stroke="#fff" stroke-width="2"/>
+    <circle cx="-12" cy="0" r="3" fill="#00FF00"/>
+    <text x="0" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#888">
+      EXTERNAL SSD
+    </text>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#aaa">
+      Auto-mount • Fast sync
+    </text>
+  </g>
+  
+  <!-- Feature 8: Mobile Access (bas centre droite) -->
+  <g transform="translate(550,520)">
+    <!-- Icône Mobile -->
+    <rect x="-8" y="-15" width="16" height="30" rx="3" fill="#333" stroke="#fff" stroke-width="2"/>
+    <circle cx="0" cy="8" r="2" fill="#00FF00"/>
+    <line x1="-4" y1="-8" x2="4" y2="-8" stroke="#fff" stroke-width="1"/>
+    <text x="0" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#888">
+      MOBILE READY
+    </text>
+    <text x="0" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#aaa">
+      Cake Wallet • Monerujo
+    </text>
+  </g>
+  
+  <!-- Feature 9: Starlink Optimization (coin haut centre) -->
+  <g transform="translate(400,100)">
+    <!-- Icône Satellite -->
+    <polygon points="0,-10 8,-5 5,5 -5,5 -8,-5" fill="#87CEEB" stroke="#fff" stroke-width="1"/>
+    <line x1="-3" y1="-3" x2="-8" y2="-8" stroke="#87CEEB" stroke-width="2"/>
+    <line x1="3" y1="-3" x2="8" y2="-8" stroke="#87CEEB" stroke-width="2"/>
+    <text y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#87CEEB">
+      STARLINK OPTIMIZED
+    </text>
+    <text y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#aaa">
+      High-latency • MTU tuning
+    </text>
+  </g>
+  
+  <!-- Légende des avantages clés -->
+  <g transform="translate(50,530)">
+    <rect x="0" y="0" width="200" height="60" rx="5" fill="#222" stroke="#444" stroke-width="1" opacity="0.9"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6600">
+      KEY BENEFITS
+    </text>
+    <text x="10" y="37" font-family="Arial, sans-serif" font-size="12" fill="#0F0">✓ Zero Linux knowledge needed</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="12" fill="#0F0">✓ 45-minute complete setup</text>
+    <text x="10" y="63" font-family="Arial, sans-serif" font-size="12" fill="#0F0">✓ Enterprise-grade privacy</text>
+  </g>
+  
+  <!-- Légende des connexions -->
+  <g transform="translate(550,530)">
+    <rect x="0" y="0" width="200" height="60" rx="5" fill="#222" stroke="#444" stroke-width="1" opacity="0.9"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#FF6600">
+      ACCESS METHODS
+    </text>
+    <text x="10" y="37" font-family="Arial, sans-serif" font-size="12" fill="#9966FF">🎭 .onion:18081 (Anonymous)</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="12" fill="#33DD77">🔐 VPN_IP:18081 (Secure)</text>
+    <text x="10" y="63" font-family="Arial, sans-serif" font-size="12" fill="#888">🌐 Local_IP:18081 (Direct)</text>
+  </g>
+  
+</svg>
