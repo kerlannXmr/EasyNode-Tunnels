@@ -3,7 +3,8 @@
  **Tor & VPN Ready Monero Node Installer**
 
 <div>
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"><img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_diagram.svg" alt="EasyNode-Tunnels Logo" width="400" height="400">
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
+  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_diagram.svg" alt="EasyNode-Tunnels Logo" width="450" height="450">
 </div>
 
 ---
@@ -32,13 +33,6 @@ Join thousands of users who've transformed their privacy game with **EasyNode-Tu
 ### 🎭 Dual-Tunnel Privacy Architecture
 
 ```
-🌐 Internet ← [🛡️ Firewall] ← [🎭 Tor Hidden Service] ←[⚛️ Monero Node] → [🔐 VPN Tunnel] → 📱 Your Wallets
-
-🌐 Internet
-├── Layer 1: Firewall 
-├── Layer 2: Tor Anonymity
-├── Layer 3: VPN Tunnels
-└── Core: Monero Node
 
 🚀 COMPLETE INSTALLATION
 ├── 🌍 Language Selection (FR/EN)
