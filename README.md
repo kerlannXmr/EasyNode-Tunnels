@@ -20,6 +20,12 @@
 
  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.png" alt="EasyNode-Tunnels Logo" width="400" height="450"><img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="400" height="450">
 
+ <div align="center">
+  
+[![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/Vn9GybgA#P3r4fZTNcMV_2_kkNPHIO4vwXZkV7jEAvLTBCUmtfPg) 
+
+ </div>
+ 
 ---
 ## 🎯 What is EasyNode-Tunnels?
 
