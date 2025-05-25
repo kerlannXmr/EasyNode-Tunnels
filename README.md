@@ -103,7 +103,7 @@ sudo ./easynode_vpn_tor.sh
 
 # 4. Follow the guided menu
 ```
-## DOWNLOAD
+## ⬇️ DOWNLOAD
 <div>
 
 | Version | Links |
