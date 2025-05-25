@@ -305,12 +305,14 @@ After complete installation, you get **3 connection methods**:
 
 ###  <b>🔶Make donnation with 'cake wallet' to : ' kerlann.xmr '</b>
 
-<div align="center"><img src="https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/qrcode1.gif"  alt="wsl Interface"></div>
+<div align="center"><img src="https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/qrcode1.gif"  alt="wsl Interface">
 
 or fundraiser
 
 [![contact_xmrchat](https://img.shields.io/badge/✨_XmrChat-FF6600?style=flat&logoColor=white)](https://xmrchat.com/easymonerod)[![contact_kuno](https://img.shields.io/badge/🔥_Kuno-FF6600?style=flat&logoColor=white)](https://kuno.anne.media/fundraiser/dkbu)
+
 Every donation helps improve privacy tools for everyone!  
+
 </div>
 
 <div align="center">
