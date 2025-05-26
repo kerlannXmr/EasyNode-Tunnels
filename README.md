@@ -33,6 +33,12 @@
 
 **No Linux knowledge required.**
 
+### ❕ DISCLAIMER ❕
+
+This script is designed **exclusively for dedicated Monero node PCs** and makes irreversible system modifications (SSH, firewall, DNS, storage) 
+
+- never use on primary computers or production systems, and by using it you accept full responsibility for any consequences.
+
 ### 🎯 Why Choose EasyNode-Tunnels?
 
   **Perfect for users who want:**
@@ -287,7 +293,28 @@ After complete installation, you get **3 connection methods**:
 
 - **Internal or external Storage**: 100GB+ free space
 
-- **Recommended Storage**: External SSD 500GB+
+- **Recommended Storage**: 500GB+
+
+---
+
+### ⚠️ SECURITY DISCLAIMER ⚠️
+
+| 💚  **DESIGNED FOR** | 🖥️ **Dedicated PC for Monero Node Only** |
+|:---:|:---|
+| ⚠️ **WARNING** | 🚫 **Never use on primary computers or production systems** |
+| 🚨 **CRITICAL** | This script makes irreversible system modifications |
+
+## **Usage Guidelines**
+
+| ✅ **SAFE FOR** | ❌ **NEVER USE ON** |
+|:---|:---|
+| -Dedicated Monero node machines | -Daily-use computers |
+| -Fresh Linux installations | -Production servers |
+| -Disposable/VM environments | -Systems with important data |
+| -Isolated test systems | -Multi-user environments |
+
+| ⚖️ **LEGAL** | **BY USING THIS SCRIPT, YOU ACCEPT ALL RISKS** |
+|:---:|:---|
 
 ---
 
