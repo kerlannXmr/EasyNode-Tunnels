@@ -39,7 +39,7 @@
 
 This script is designed **exclusively for dedicated Monero node PCs** and makes irreversible system modifications (SSH, firewall, DNS, storage) 
 
-- never use on primary computers or production systems, and by using it you accept full responsibility for any consequences.
+- never use on primary computers or production systems, and by using it you accept responsibility.
 
 ### 🎯 Why Choose EasyNode-Tunnels?
 
@@ -299,12 +299,11 @@ After complete installation, you get **3 connection methods**:
 
 ---
 
-### ⚠️ SECURITY DISCLAIMER ⚠️
+### ⚠️ Security disclamer
 
 | 💚  **DESIGNED FOR** | 🖥️ **Dedicated PC for Monero Node Only** |
 |:---:|:---|
 | ⚠️ **WARNING** | 🚫 **Never use on primary computers or production systems** |
-| 🚨 **CRITICAL** | This script makes irreversible system modifications |
 
 ## **Usage Guidelines**
 
@@ -315,7 +314,7 @@ After complete installation, you get **3 connection methods**:
 | -Disposable/VM environments | -Systems with important data |
 | -Isolated test systems | -Multi-user environments |
 
-| ⚖️ **LEGAL** | **BY USING THIS SCRIPT, YOU ACCEPT ALL RISKS** |
+| ⚖️ **LEGAL** | **by using this script, you accept all responsability** |
 |:---:|:---|
 
 ---
