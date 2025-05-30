@@ -105,6 +105,16 @@ Join thousands of users who've transformed their privacy game with **EasyNode-Tu
 5. Start blockchain: Option 6 → Mode 1 (with IP blocking)
 6. Connect wallets using provided addresses
 
+
+## ⬇️ DOWNLOAD
+<div>
+
+| Version | Links |
+|---------|------|
+| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V2.0/easynode_vpn_tor.sh) |
+
+</div>
+
 ```bash
 # 1. Download the installer
 wget https://raw.githubusercontent.com/kerlanxmr/EasyNode-Tunnels/main/easynode_vpn_tor.sh
@@ -117,15 +127,6 @@ sudo ./easynode_vpn_tor.sh
 
 # 4. Follow the guided menu
 ```
-## ⬇️ DOWNLOAD
-<div>
-
-| Version | Links |
-|---------|------|
-| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V2.0/easynode_vpn_tor.sh) |
-
-</div>
-
 
 ## 🔗 Final Connection Options Available
 
@@ -234,17 +235,17 @@ After complete installation, you get **3 connection methods**:
 
 ## 📊 Comparison Table
 
-| Feature / Fonctionnalité | EasyNode-Tunnels | Standard Node | Other Installers |
-|-------------------------|:----------------:|:-------------:|:----------------:|
-| **Tor Integration** | ✅ Auto .onion | ❌ Manual only | ⚠️ Complex setup |
-| **VPN Support** | ✅ Built-in ZeroTier | ❌ None | ❌ None |
-| **IP Banning** | ✅ Automatic | ❌ Manual | ⚠️ Basic |
-| **Mobile Access** | ✅ VPN tunnels | ❌ Port forwarding | ❌ Port forwarding |
-| **Beginner Friendly** | ✅ Zero knowledge | ❌ Expert level | ⚠️ Some knowledge |
-| **External Storage** | ✅ Auto-mount | ❌ Manual | ⚠️ Manual |
-| **Satellite Optimized** | ✅ Yes | ❌ No | ❌ No |
-| **Multilingual** | ✅ FR/EN | ❌ EN only | ❌ EN only |
-| **Security Level** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐⭐⭐ |
+| Feature / Fonctionnalité | EasyNode-Tunnels | Other Installers |
+|-------------------------|:----------------:|:-------------:|
+| **Tor Integration** | ✅ Auto .onion | ⚠️ Complex setup |
+| **VPN Support** | ✅ Built-in ZeroTier | ❌ None |
+| **IP Banning** | ✅ Automatic |  ⚠️ Basic |
+| **Mobile Access** | ✅ VPN tunnels | ❌ Port forwarding |
+| **Beginner Friendly** | ✅ Zero knowledge | ⚠️ Some knowledge |
+| **External Storage** | ✅ Auto-mount | ⚠️ Manual |
+| **Satellite Optimized** | ✅ Yes | ❌ No |
+| **Multilingual** | ✅ FR/EN | ❌ EN only |
+| **Security Level** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ |
 
 ---
 
