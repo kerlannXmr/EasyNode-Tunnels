@@ -1,7 +1,9 @@
-# 🚇 EasyNode-Vpn+Tor
+<div align="center">
+ 
+ # 🚇 EasyNode-Vpn+Tor
 
  **Tor & VPN Ready Monero Node Installer**
- 
+ </div>
 
  [![contact_Mail](https://img.shields.io/badge/✉️_Email-FF6600?style=flat&logoColor=white)](mailto:easynode@kerlann.org)
 [![GitHub-page](https://img.shields.io/badge/Page--FR-FF6600?style=flat&logo=github&logoColor=white)](https://easynode.kerlann.org/fr.html)
