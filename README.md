@@ -239,7 +239,7 @@ After complete installation, you get **3 connection methods**:
 |-------------------------|:----------------:|:-------------:|
 | **Tor Integration** | ✅ Auto .onion | ⚠️ Complex setup |
 | **VPN Support** | ✅ Built-in ZeroTier | ❌ None |
-| **IP Banning** | ✅ Automatic |  ⚠️ Basic |
+| **IP Banning** | ✅ Automatic |  ❌ None |
 | **Mobile Access** | ✅ VPN tunnels | ❌ Port forwarding |
 | **Beginner Friendly** | ✅ Zero knowledge | ⚠️ Some knowledge |
 | **External Storage** | ✅ Auto-mount | ⚠️ Manual |
