@@ -307,6 +307,21 @@ After complete installation, you get **3 connection methods**:
 
 ---
 
+## <div align="center">☣️ EasyNode Scripts TEST report</div>
+
+<div align="center">
+
+ <b>Right click + "Open in new tab" to view scann results </b>
+
+| Script | Jotti.org | MetaDefender | virscan |
+|--------|------------|--------------|--------------|
+| EasyNode_linux | [![Scan EasyNode_linux with JOTTI.ORG](https://img.shields.io/badge/scan%20Easynode_linux%20with-Jotti.org-brightgreen)](https://virusscan.jotti.org/en-US/filescanjob/sn1q9p5eki) | [![Scan EasyNode_linux with MetaDefender](https://img.shields.io/badge/scan%20Easynode_linux%20with-MetaDefender-brightgreen)](https://metadefender.com/results/url/aHR0cHM6Ly9naXRodWIuY29tL2tlcmxhbm5YbXIvRWFzeU5vZGUtVHVubmVscy9yZWxlYXNlcy9kb3dubG9hZC9WMi4wL2Vhc3lub2RlX3Zwbl90b3Iuc2g=) | [![Scan EasyNode_linux with VirScan](https://img.shields.io/badge/scan%20Easynode_linux%20with-VirScan-brightgreen)](https://www.virscan.org/report/3aec2f8bedc54e1ea9bcd694aa917b971ce943962e2de584f3e33b1dcbdbd725)
+
+
+</div>
+
+---
+
 ### ⚠️ Security disclamer
 
 | 💚  **DESIGNED FOR** | 🖥️ **Dedicated PC for Monero Node Only** |
