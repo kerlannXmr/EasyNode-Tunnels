@@ -332,15 +332,6 @@ After complete installation, you get **3 connection methods**:
 |:---:|:---|
 | ⚠️ **WARNING** | 🚫 **Don't use on primary computers first** |
 
-## **Usage Guidelines**
-
-| ✅ **SAFE FOR** | ❌ **Don't USE ON** |
-|:---|:---|
-| -Dedicated Monero node machines | -Daily-use computers |
-| -Fresh Linux installations | -Production servers |
-| -Disposable/VM environments | -Systems with important data |
-| -Isolated test systems | -Multi-user environments |
-
 | ⚖️ **LEGAL** | **by using this script, you accept responsability** |
 |:---:|:---|
 
