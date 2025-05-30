@@ -206,8 +206,6 @@ After complete installation, you get **3 connection methods**:
 
 ## ✨ Key Features
 
-### 🔥 Unique Capabilities
-
 | Feature | Description | Benefit |
 |---------|-------------|---------|
 | 🎭 **Auto-Tor Integration** | Automatic .onion address generation | Complete node anonymity |
