@@ -1,10 +1,3 @@
-<div align="center">
- 
- # 🚇 EasyNode-Vpn+Tor
-
- **Tor & VPN Ready Monero Node Installer**
- </div>
-
  [![contact_Mail](https://img.shields.io/badge/✉️_Email-FF6600?style=flat&logoColor=white)](mailto:easynode@kerlann.org)
 [![GitHub-page](https://img.shields.io/badge/Page--FR-FF6600?style=flat&logo=github&logoColor=white)](https://easynode.kerlann.org/fr.html)
 [![Monero-ecosystem](https://img.shields.io/badge/🧭_Monero.eco-FF6600?style=flat&logoColor=white)](https://monero.eco/infrastructure/)
@@ -15,22 +8,15 @@
 <div align="center">
 
 ## Make easy a MONERO Node 
+ **Tor & VPN Ready Monero Node Installer**
 </div>
 
 <br> 
+
 <div align="center">
+
   <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
 </div>
-
- <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.png" alt="EasyNode-Tunnels Logo" width="400" height="450"><img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="400" height="450">
-
- <div align="center">
-  
-[![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/Vn9GybgA#P3r4fZTNcMV_2_kkNPHIO4vwXZkV7jEAvLTBCUmtfPg) 
-
- </div>
- 
----
 
 ## 🎯 What is EasyNode-Tunnels?
 
@@ -48,6 +34,22 @@ This script is designed **exclusively for dedicated Monero node PCs** and makes 
 
 - never use on primary computers or production systems, and by using it you accept responsibility.
 
+---
+
+  <div align="center"> 
+   
+   ## Interface
+   
+   </div>
+  
+ <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.png" alt="EasyNode-Tunnels Logo" width="400" height="450"><img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_tunnels.gif" alt="EasyNode-Tunnels Logo" width="400" height="450">
+
+ <div align="center">
+  
+[![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/Vn9GybgA#P3r4fZTNcMV_2_kkNPHIO4vwXZkV7jEAvLTBCUmtfPg) 
+
+ </div>
+ 
 ---
 
 ### 🎯 Why Choose EasyNode-Tunnels?
@@ -317,7 +319,7 @@ After complete installation, you get **3 connection methods**:
 
 | Script | Jotti.org | MetaDefender | virscan |
 |--------|------------|--------------|--------------|
-| EasyNode_Vpn_Tor | [![Scan EasyNode_linux with JOTTI.ORG](https://img.shields.io/badge/scan%20Easynode_linux%20with-Jotti.org-brightgreen)](https://virusscan.jotti.org/en-US/filescanjob/sn1q9p5eki) | [![Scan EasyNode_linux with MetaDefender](https://img.shields.io/badge/scan%20Easynode_linux%20with-MetaDefender-brightgreen)](https://metadefender.com/results/url/aHR0cHM6Ly9naXRodWIuY29tL2tlcmxhbm5YbXIvRWFzeU5vZGUtVHVubmVscy9yZWxlYXNlcy9kb3dubG9hZC9WMi4wL2Vhc3lub2RlX3Zwbl90b3Iuc2g=) | [![Scan EasyNode_linux with VirScan](https://img.shields.io/badge/scan%20Easynode_linux%20with-VirScan-brightgreen)](https://www.virscan.org/report/3aec2f8bedc54e1ea9bcd694aa917b971ce943962e2de584f3e33b1dcbdbd725)
+| EasyNode_Vpn_Tor | [![Scan EasyNode_linux with JOTTI.ORG](https://img.shields.io/badge/scan%20Easynode_tunnels%20with-Jotti.org-brightgreen)](https://virusscan.jotti.org/en-US/filescanjob/sn1q9p5eki) | [![Scan EasyNode_linux with MetaDefender](https://img.shields.io/badge/scan%20Easynode_tunnels%20with-MetaDefender-brightgreen)](https://metadefender.com/results/url/aHR0cHM6Ly9naXRodWIuY29tL2tlcmxhbm5YbXIvRWFzeU5vZGUtVHVubmVscy9yZWxlYXNlcy9kb3dubG9hZC9WMi4wL2Vhc3lub2RlX3Zwbl90b3Iuc2g=) | [![Scan EasyNode_linux with VirScan](https://img.shields.io/badge/scan%20Easynode_tunnels%20with-VirScan-brightgreen)](https://www.virscan.org/report/3aec2f8bedc54e1ea9bcd694aa917b971ce943962e2de584f3e33b1dcbdbd725)
 
 
 </div>
