@@ -29,9 +29,14 @@
  </div>
  
 ---
+
 ## 🎯 What is EasyNode-Tunnels?
 
-**EasyNode-Tunnels** is a revolutionary one-click installer that transforms any Linux machine into a bulletproof Monero privacy fortress. In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts weeks to configure.
+**EasyNode-Tunnels** is a revolutionary one-click installer that transforms any **Linux machine** into a bulletproof **Monero privacy fortress**. 
+
+In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts days to configure.
+
+(You'll have to download the blockchain one time only.)
 
 **No Linux knowledge required.**
 
@@ -40,6 +45,8 @@
 This script is designed **exclusively for dedicated Monero node PCs** and makes irreversible system modifications (SSH, firewall, DNS, storage) 
 
 - never use on primary computers or production systems, and by using it you accept responsibility.
+
+---
 
 ### 🎯 Why Choose EasyNode-Tunnels?
 
@@ -304,18 +311,18 @@ After complete installation, you get **3 connection methods**:
 
 | 💚  **DESIGNED FOR** | 🖥️ **Dedicated PC for Monero Node Only** |
 |:---:|:---|
-| ⚠️ **WARNING** | 🚫 **Never use on primary computers or production systems** |
+| ⚠️ **WARNING** | 🚫 **Don't use on primary computers first** |
 
 ## **Usage Guidelines**
 
-| ✅ **SAFE FOR** | ❌ **NEVER USE ON** |
+| ✅ **SAFE FOR** | ❌ **Don't USE ON** |
 |:---|:---|
 | -Dedicated Monero node machines | -Daily-use computers |
 | -Fresh Linux installations | -Production servers |
 | -Disposable/VM environments | -Systems with important data |
 | -Isolated test systems | -Multi-user environments |
 
-| ⚖️ **LEGAL** | **by using this script, you accept all responsability** |
+| ⚖️ **LEGAL** | **by using this script, you accept responsability** |
 |:---:|:---|
 
 ---
