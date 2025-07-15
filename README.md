@@ -46,7 +46,7 @@ This script is designed **exclusively for dedicated Monero node PCs** and makes 
 
  <div align="center">
   
-[![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/Vn9GybgA#P3r4fZTNcMV_2_kkNPHIO4vwXZkV7jEAvLTBCUmtfPg) 
+[![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/QndilTTB#2cHEOgpfcnx3uzsouZiRvXJxHDCodA8RwdYytUJNdNc) 
 
  </div>
  
