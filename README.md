@@ -15,7 +15,14 @@
 
 <div align="center">
 
-  <img src="https://github.com/kerlannXmr/EasyNode-Tunnels/blob/main/picture/easynode_animated.svg" alt="EasyNode-Tunnels Logo" width="400" height="400"> 
+<img src="https://github.com/kerlannXmr/easymonerod/blob/main/picture/xxmr.gif" alt="EasyNode-Tunnels Logo" width="300" height="300"> 
+
+<br>
+<br>
+
+[▶️ Demo video](https://mega.nz/file/QndilTTB#2cHEOgpfcnx3uzsouZiRvXJxHDCodA8RwdYytUJNdNc) *("Open in new tab")*
+
+  
 </div>
 
 ## 🎯 What is EasyNode-Tunnels?
