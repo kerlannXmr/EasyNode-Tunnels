@@ -31,7 +31,7 @@
 
 In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts days to configure.
 
-(You'll have to download the blockchain one time only.)
+(You'll have to download the blockchain one time only.) (inclued 0.18.4.1 Monero CLI and officiel Hash verification)
 
 **No Linux knowledge required.**
 
