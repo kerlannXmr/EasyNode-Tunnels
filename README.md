@@ -29,9 +29,12 @@
 
 **EasyNode-Tunnels** is a revolutionary one-click installer that transforms any **Linux machine** into a bulletproof **Monero privacy fortress**. 
 
-In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts days to configure. (inclued 0.18.4.2 Monero CLI and officiel Hash verification)
+In less than 10 minutes, you'll have a production-ready node with military-grade anonymity layers that would typically take experts days to configure. 
+<br>
 
-(You'll have to download the blockchain one time only.) 
+**-inclued 0.18.4.3 Monero CLI and officiel Hash verification**
+
+-You'll have to download the blockchain one time only.
 
 **No Linux knowledge required.**
 
@@ -56,6 +59,17 @@ This script is designed **exclusively for dedicated Monero node PCs** and makes 
 [![EasyNode Monero](https://github.com/kerlannXmr/EasyMonerod/blob/main/picture/play-button.svg)](https://mega.nz/file/QndilTTB#2cHEOgpfcnx3uzsouZiRvXJxHDCodA8RwdYytUJNdNc) 
 
  </div>
+
+
+## ⬇️ DOWNLOAD
+<div>
+
+| Version | Links |
+|---------|------|
+| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V2.0/easynode_vpn_tor.sh) |
+
+</div>
+
  
 ---
 
@@ -124,14 +138,6 @@ Join thousands of users who've transformed their privacy game with **EasyNode-Tu
 6. Connect wallets using provided addresses
 
 
-## ⬇️ DOWNLOAD
-<div>
-
-| Version | Links |
-|---------|------|
-| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V2.0/easynode_vpn_tor.sh) |
-
-</div>
 
 ## 🚀 INSTALLATION
 
