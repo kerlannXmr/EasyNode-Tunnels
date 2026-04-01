@@ -151,7 +151,7 @@ wget https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/v3/easynod
 
 ```bash
 # 1. Download the installer
-wget https://raw.githubusercontent.com/kerlanxmr/EasyNode-Tunnels/main/easynode_vpn_tor.sh
+wget https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/v3/easynode_vpn_tor.sh
 
 # 2. Make it executable
 chmod +x easynode_vpn_tor.sh
