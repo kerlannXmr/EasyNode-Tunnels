@@ -66,7 +66,7 @@ This script is designed **exclusively for dedicated Monero node PCs** and makes 
 
 | Version | Links |
 |---------|------|
-| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V3/easynode_vpn_tor.sh) |
+| 🐧 Linux | [![Linux](https://img.shields.io/badge/Download-EasyNode_VPN+TOR-orange?style=for-the-badge)](https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/v3/easynode_vpn_tor.sh) |
 
 </div>
 
