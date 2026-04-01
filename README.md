@@ -144,7 +144,7 @@ Join thousands of users who've transformed their privacy game with **EasyNode-Tu
 - ⚡Beginner users: copy&paste in new terminal
 
 ```bash
-wget https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/V3/easynode_vpn_tor.sh -O easynode_vpn_tor.sh && chmod +x easynode_vpn_tor.sh && sudo ./easynode_vpn_tor.sh
+wget https://github.com/kerlannXmr/EasyNode-Tunnels/releases/download/v3/easynode_vpn_tor.sh -O easynode_vpn_tor.sh && chmod +x easynode_vpn_tor.sh && sudo ./easynode_vpn_tor.sh
 ```
 
 - Normal users: copy&paste in new terminal
