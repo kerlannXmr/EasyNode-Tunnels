@@ -98,7 +98,7 @@ Join thousands of users who've transformed their privacy game with **EasyNode-Tu
 ├── 🌍 Language Selection (FR/EN)
 ├── 📦 PHASE 1: Base Installation (Steps 1-5)
 │   ├── 1️⃣ System Update + Firewall
-│   ├── 2️⃣ Monero CLI Installation v0.18.4.0  
+│   ├── 2️⃣ Monero CLI Installation v0.18.5.0  
 │   ├── 3️⃣ Tor Installation + .onion Generation
 │   ├── 4️⃣ bitmonero.conf Configuration
 │   └── 5️⃣ Anonymous DNS Configuration
